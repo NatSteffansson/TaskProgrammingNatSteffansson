@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Morse {
     public static void main(String[] args) {
-        String input = "";
+        String input;
         MorseConverter morseConverter = new MorseConverter();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter 1 to translate English, numbers, or symbols to Morse Code.");
