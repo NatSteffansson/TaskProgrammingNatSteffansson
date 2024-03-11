@@ -40,7 +40,7 @@ public class TestConverter {
     }
 
     @Test
-    public void testToMorseToUpperCase() {
+    public void testLowerCaseWordsToMorse() {
         MorseConverter morseConverter = new MorseConverter();
         String testData = "hi there";
         String expected = "**** **  - **** * *-* *";
